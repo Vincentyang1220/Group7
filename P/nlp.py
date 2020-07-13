@@ -2,7 +2,7 @@ from ckiptagger import data_utils, construct_dictionary, WS, POS, NER
 
 # Downloads to ./data.zip (2GB) and extracts to ./data/
 # data_utils.download_data_url("./") # iis-ckip
-# data_utils.download_data_gdown("./") # gdrive-ckip
+data_utils.download_data_gdown("./") # gdrive-ckip
 # To use GPU:
 #    1. Install tensorflow-gpu (see Installation)
 #    2. Set CUDA_VISIBLE_DEVICES environment variable, e.g. os.environ["CUDA_VISIBLE_DEVICES"] = "0"
